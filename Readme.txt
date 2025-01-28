@@ -30,6 +30,8 @@ Issues when removing the original new outlook?
 2. Find "Outlook (new) > click uninstall
 3. Run the script again (now disregard any errors at this step)
 
+ALTERNATIVE
+==============================================
 1-) Run Command Prompt as administrator.
 2-) Paste reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock" /v AllowDevelopmentWithoutDevLicense /f and press Enter.
 3-) Run Windows PowerShell as administrator (not the x86 version).
