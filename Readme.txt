@@ -32,10 +32,11 @@ Issues when removing the original new outlook?
 
 ALTERNATIVE
 ==============================================
-1-) Run Command Prompt as administrator.
-2-) Paste reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock" /v AllowDevelopmentWithoutDevLicense /f and press Enter.
-3-) Run Windows PowerShell as administrator (not the x86 version).
-4-) Paste Get-AppxPackage -allusers Microsoft.OutlookForWindows | Remove-AppxPackage -allusers and press Enter.
+1-) Open settings > apps >  Find "Outlook (new) > click uninstall
+2-) Run Command Prompt as administrator.
+3-) Paste reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock" /v AllowDevelopmentWithoutDevLicense /f and press Enter.
+4-) Run Windows PowerShell as administrator (not the x86 version).
+5-) Paste Get-AppxPackage -allusers Microsoft.OutlookForWindows | Remove-AppxPackage -allusers and press Enter.
 
 Go to the Microsoft Store and try reinstalling it. It should now be installed successfully.
 https://apps.microsoft.com/detail/9wzdncrfhvqm
